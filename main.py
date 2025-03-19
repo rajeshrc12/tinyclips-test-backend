@@ -309,7 +309,7 @@ class VideoRequest(BaseModel):
     script: str
 
 
-@app.get("/y")
+@app.get("/")
 def hello_fast_api():
     return {"message": "Hello from FastAPI"}
 
